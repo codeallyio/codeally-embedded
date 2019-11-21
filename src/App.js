@@ -1,25 +1,35 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <iframe
-          title="Editor"
-          width="800px"
-          height="1000px"
-          src="http://localhost:8000"
-        />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div
+      className="App"
+      style={{
+        height: "2500px",
+        background: "#f5f5f5"
+      }}
+    >
+      <div
+        style={{
+          height: "100px",
+          padding: "20px"
+        }}
+      >
+        <h1>Strove embedded example</h1>
+      </div>
+      <iframe
+        title="Editor"
+        style={{
+          width: "100%",
+          height: "550px",
+          border: 0,
+          overflow: "hidden"
+        }}
+        src="http://localhost:8000"
+        sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+      />
+      <h1>Strove embedded example</h1>
     </div>
   );
 }
