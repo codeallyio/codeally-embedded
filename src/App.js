@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -10,14 +10,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <iframe
+          title="Editor"
+          width="800px"
+          height="1000px"
+          src="http://localhost:8000"
+        />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
       </header>
     </div>
   );
