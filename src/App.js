@@ -26,7 +26,7 @@ function App() {
           border: 0,
           overflow: "hidden"
         }}
-        src="http://localhost:8000/embed"
+        src="http://localhost:8000/embed/?projectUrl=https://github.com/stroveio/strove.io"
         sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
       />
       <h1>Strove embedded example</h1>
