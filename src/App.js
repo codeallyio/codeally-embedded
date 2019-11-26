@@ -24,7 +24,6 @@ function App() {
           width: "100%",
           height: "550px",
           border: 0,
-          overflow: "hidden",
           position: "relative",
           overflow: "hidden"
         }}
