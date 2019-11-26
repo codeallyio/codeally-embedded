@@ -18,17 +18,24 @@ function App() {
       >
         <h1>Strove embedded example</h1>
       </div>
-      <iframe
-        title="Editor"
+      <div
         style={{
-          width: "100%",
-          height: "550px",
-          border: 0,
+          position: "relative",
           overflow: "hidden"
         }}
-        src="http://localhost:8000/embed/?repoUrl=https://github.com/stroveio/strove.io&goBackTo=localhost:3000"
-        sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-      />
+      >
+        <iframe
+          title="Editor"
+          style={{
+            width: "100%",
+            height: "550px",
+            border: 0,
+            overflow: "hidden"
+          }}
+          src="http://localhost:8000/embed/?repoUrl=https://github.com/stroveio/strove.io&goBackTo=localhost:3000"
+          sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+        />
+      </div>
       <h1>Strove embedded example</h1>
     </div>
   );
